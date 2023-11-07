@@ -1,0 +1,21 @@
+.container {
+  padding: 16px;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.embedImage {
+  border-radius: 8px;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.tweetText {
+  opacity: 0.8;
+  overflow-wrap: anywhere;
+}
